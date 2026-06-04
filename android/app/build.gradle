@@ -24,6 +24,7 @@ android {
     kotlinOptions { jvmTarget = '1.8' }
     sourceSets { main.java.srcDirs += 'src/main/kotlin' }
     defaultConfig {
+        namespace "com.example.shotscore_ai"
         applicationId "com.example.shotscore_ai"
         minSdkVersion 21
         targetSdkVersion 34
